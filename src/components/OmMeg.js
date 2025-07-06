@@ -67,9 +67,9 @@ export const OmMeg = () => {
       tekst: (
         <>
           Jeg har hatt stor interesse for programmering helt siden jeg var ung. Jeg utvikler blant annet spill, og publiserte noen av de første spillene mine på {" "}
-          <a href="https://evepto.itch.io/" target="_blank" rel="noopener noreferrer">
+          <a href="https://evepto.itch.io/" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none'} }>
             itch.io
-          </a>.
+          </a>
         </>
       ),
     },
@@ -102,7 +102,7 @@ export const OmMeg = () => {
               <h2 style={{ marginTop: "0px", fontSize: "35px" }}>Milepæler</h2>
               <p><b>Galdhøpiggen:</b> Besteg Norges høyeste fjell, 2469 moh.</p>
               <p><b>Fallskjermhopp:</b> Hoppet fra 2000 meters høyde med fallskjerm.</p>
-              <p><b>Maraton:</b> Fullført fullmaraton i Sør-Afrika etter lang forberedelse.</p>
+              <p><b>Maraton:</b> Gjennomført helmaraton i Sør-Afrika etter lang forberedelse.</p>
               <p><b>110 kg benkpress:</b> Oppnådd personlig rekord i benkpress på 110 kg.</p>
               <p><b>Strikkhopp:</b> Utført verdens høyeste strikkhopp fra 160 meter.</p>
               <p><b>7-fjellsturen:</b> Gikk 7-fjellsturen i Bergen – 35 km over syv fjell.</p>
