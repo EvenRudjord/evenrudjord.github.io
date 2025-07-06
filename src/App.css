@@ -46,12 +46,14 @@ h1, h2, h3, h4, h5, h6 {
 .App {
   text-align: center;
 background: #001711;
-   background:
-    radial-gradient(circle at 20% 30%, rgba(150, 50, 30, 0.4), transparent 60%),  /* dempet oransje */
-    radial-gradient(circle at 70% 60%, rgba(80, 0, 40, 0.3), transparent 60%),   /* mørkerød */
-    radial-gradient(circle at 50% 80%, rgba(10, 10, 60, 0.8), transparent 70%),  /* mørkeblå base */
-    #03041a;  /* nesten svart, mørkeblå bunn */
-  background-blend-mode: screen;
+background:
+  radial-gradient(circle at 20% 30%, rgba(150, 50, 30, 0.4), transparent 60%),     /* dempet oransje */
+  radial-gradient(circle at 70% 60%, rgba(80, 0, 40, 0.3), transparent 60%),       /* mørkerød */
+  radial-gradient(circle at 50% 80%, rgba(10, 10, 60, 0.8), transparent 70%),      /* mørkeblå base */
+  radial-gradient(circle at 90% 10%, rgba(10, 20, 80, 0.4), transparent 60%),      /* dark blue top right */
+  #03041a;  /* nesten svart, mørkeblå bunn */
+background-blend-mode: screen;
+
 }
 
 .App-logo {
@@ -447,7 +449,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .skillcard:hover img {
-  background-color: #1f1f1f;
   transition: 0.3s ease-in-out;
 }
 
@@ -477,6 +478,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .skill .nav.nav-pills {
   width: 50%;
+  min-width: 500px;
   margin: 0 auto;
   border-radius: 50px;
   background-color: rgb(255 255 255 / 10%);
@@ -1152,7 +1154,7 @@ button.btn-dark:hover {
 .flip-card {
   width: 45%;
   min-width: 300px;
-  height: 300px;
+  height: 200px;
   perspective: 1000px;
   cursor: pointer;
 }

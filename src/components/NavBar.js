@@ -23,6 +23,7 @@ export const NavBar = () => {
     const home = document.getElementById("home");
     const skills = document.getElementById("skills");
     const projects = document.getElementById("projects");
+    const omMeg = document.getElementById("OmMeg");
     const scrollPos = window.scrollY + window.innerHeight / 2;
 
     if (
@@ -43,6 +44,12 @@ export const NavBar = () => {
       scrollPos < home.offsetTop + home.offsetHeight
     ) {
       setActive("home");
+    } else if (
+      omMeg &&
+      scrollPos >= omMeg.offsetTop &&
+      scrollPos < omMeg.offsetTop + omMeg.offsetHeight
+    ) {
+      setActive("OmMeg");
     }
   };
 
@@ -77,7 +84,7 @@ export const NavBar = () => {
     className={`nav-link navbar-link${activeLink === "home" ? " active" : ""}`}
     onClick={() => onUpdateActiveLink("home")}
   >
-    Home
+    Hjem
   </a>
   <a
     href="#skills"
@@ -92,6 +99,13 @@ export const NavBar = () => {
     onClick={() => onUpdateActiveLink("projects")}
   >
     Prosjekter
+  </a>
+  <a
+    href="#OmMeg"
+    className={`nav-link navbar-link${activeLink === "OmMeg" ? " active" : ""}`}
+    onClick={() => onUpdateActiveLink("OmMeg")}
+  >
+    Interesser
   </a>
 </Nav>
 

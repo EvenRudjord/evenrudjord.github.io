@@ -1,5 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 import fallPic from "../assets/img/Fall.png";
 import maratonPic from "../assets/img/Maraton.png";
 import galdhopiggenPic from "../assets/img/Gallho.png";
@@ -7,13 +7,32 @@ import galdhopiggenPic from "../assets/img/Gallho.png";
 
 export const OmMeg = () => {
   const [open, setOpen] = useState([false, false, false, false]);
+  const interesseRef = useRef(null);
 
-const toggle = (index) => {
-  setOpen((prev) => prev.map((v, i) => i === index ? !v : false));
-};
+  const toggle = (index) => {
+    setOpen((prev) => prev.map((v, i) => i === index ? !v : false));
+  };
+
+  // Lukk alle kort når seksjonen ikke er synlig
+  useEffect(() => {
+    const observer = new window.IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          setOpen([false, false, false, false]);
+        }
+      },
+      { threshold: 0.1 }
+    );
+    if (interesseRef.current) {
+      observer.observe(interesseRef.current);
+    }
+    return () => {
+      if (interesseRef.current) observer.unobserve(interesseRef.current);
+    };
+  }, []);
 
   return (
-    <section className='fullOmMeg'>
+    <section className='fullOmMeg' id="OmMeg">
     <section className="skill">
       {/* <Container>
         <Row>
@@ -26,28 +45,28 @@ const toggle = (index) => {
       <Container>
         <Row>
           <Col>
-            <div className="interesse-seksjon">
+            <div className="interesse-seksjon" ref={interesseRef}>
               <h2 className="interesse-tittel">Hobby og interesser</h2>
               <p className="klikk-forklaring">Klikk på interesse for å lese mer.</p>
               <div className="interesse-boks">
   {[
     {
       tittel: "🏋️ Trening og sport",
-      tekst: "Jeg er opptatt av god helse og en aktiv livsstil. Mesteparten av treningen min er styrketrening, som jeg jobber målrettet med flere ganger i uken. I tillegg liker jeg å spille basketball og volleyball for variasjon og det sosiale ved lagsport.",
+      tekst: "Jeg er opptatt av god helse og en aktiv livsstil. Mesteparten av treningen min er styrketrening. I tillegg liker jeg å spille basketball og volleyball for variasjon og det sosiale ved lagsport.",
     },
     {
       tittel: "🥾 Friluftsliv",
-      tekst: "Jeg trives godt ute i naturen, spesielt på fjellturer i utfordrende terreng. Jeg liker å komme meg ut av storbyen. Oppleve stillheten og utsikten sammen med gode venner. Jeg liker å gå på tur med andre – det gjør opplevelsen både mer sosial og minneverdig.",
+      tekst: "Jeg trives godt ute i naturen, spesielt på fjellturer i utfordrende terreng. Å komme meg ut av storbyen, og oppleve stillheten og utsikten sammen med gode venner. ",
     },
     {
       tittel: "🧑‍🤝‍🧑 Sosialt",
-      tekst: "Jeg liker å være med venner, enten det er å henge sammen i hverdagen eller bare ta en prat. Det gir meg energi, og jeg setter pris på å ha folk rundt meg som kan både utfordre meg og få meg til å le.",
+      tekst: "Jeg liker å være med venner. Det gir meg energi, og jeg setter pris på å ha folk rundt meg som kan både utfordre meg og få meg til å le.",
     },
     {
       tittel: "👾 Programmering og spillutvikling",
       tekst: (
         <>
-          Jeg har hatt stor interesse for programmering helt siden jeg var ung, og liker spesielt å forstå hvordan systemer fungerer og hvordan man kan løse problemer gjennom kode. Jeg har jobbet med spillutvikling siden jeg var 14 år, og bruker Unity som hovedverktøy, i tillegg til Blender og Krita for grafikk. Jeg publiserte noen av de første spillene mine på{" "}
+          Jeg har hatt stor interesse for programmering helt siden jeg var ung. Jeg utvikler blant annet spill, og publiserte noen av de første spillene mine på {" "}
           <a href="https://evepto.itch.io/" target="_blank" rel="noopener noreferrer">
             itch.io
           </a>.
