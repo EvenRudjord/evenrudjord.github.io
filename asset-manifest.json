@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.41e0f228.css",
-    "main.js": "/static/js/main.2264db21.js",
+    "main.js": "/static/js/main.79262843.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/megSelv.jpg": "/static/media/megSelv.f4ef93f1c24ec7fe9168.jpg",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -19,8 +19,10 @@
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/FroggerThumbnail.png": "/static/media/FroggerThumbnail.43b7d2af1bf969fc954a.png",
     "static/media/starTrailThumbNail.png": "/static/media/starTrailThumbNail.45f70809e395e453814b.png",
     "static/media/starTrailExtra1.png": "/static/media/starTrailExtra1.1357419c45b3f13aabd6.png",
+    "static/media/FroggerExtra1.png": "/static/media/FroggerExtra1.3d78a4bbfc46e21455c0.png",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
@@ -44,11 +46,11 @@
     "static/media/CSS.svg": "/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.41e0f228.css.map": "/static/css/main.41e0f228.css.map",
-    "main.2264db21.js.map": "/static/js/main.2264db21.js.map",
+    "main.79262843.js.map": "/static/js/main.79262843.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41e0f228.css",
-    "static/js/main.2264db21.js"
+    "static/js/main.79262843.js"
   ]
 }
