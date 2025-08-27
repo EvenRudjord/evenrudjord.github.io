@@ -47,7 +47,7 @@ export const Projects = () => {
             </ul>
 
             <h2>Konklusjon</h2>
-            <p>Star Trail viser både min tekniske kompetanse, arbeidsevne og samarbeidsevner som utvikler. Det er et prosjekt jeg med stolthet viser frem som eksempel på hva jeg kan levere – også når tid og ressurser er begrenset.</p>
+            <p>Star Trail viser både min tekniske kompetanse blant annet i C#, arbeidsevne og samarbeidsevner som utvikler. Det er et prosjekt jeg viser frem som eksempel på hva jeg kan levere – også når tid og ressurser er begrenset.</p>
             `,
     },
     {
@@ -56,7 +56,7 @@ export const Projects = () => {
       imgUrl: neatHeatLogo,
       buttons: [{ tittel: "Fullstendig Rapport", knappDirection: "/Prosjektfiler/RapportIN1060NeatHeat.pdf" }, { tittel: "Konsept Video", knappDirection: "https://www.uio.no/studier/emner/matnat/ifi/IN1060/v25/prosjektgrupper/CybSed/neatheat.mp4" }, { tittel: "Teknisk video", knappDirection: "https://www.uio.no/studier/emner/matnat/ifi/IN1060/v25/prosjektgrupper/CybSed/tekninsk_video.mp4" } ],
       detalier:  `<p><strong>Kort om prosjektet:</strong><br>
-            Jeg har sammen med fire andre i gruppen jobbet med NeatHeat, et velferdsteknologisk semesterprosjekt i emnet "IN1060 - Design for, med og av brukere". Målet vårt var å øke tryggheten for eldre som bor hjemme. Vi utviklet et system som varsler brukeren dersom et tent stearinlys står igjen etter at de har forlatt boligen, for å forhindre brannfare. </p>
+            Jeg har sammen med fire andre i gruppen jobbet med NeatHeat, et velferdsteknologisk semesterprosjekt i emnet "IN1060 - Design for, med og av brukere". Målet vårt var å øke tryggheten for eldre som bor hjemme. Vi utviklet et system til en arduino i C++, som varsler brukeren dersom et tent stearinlys står igjen etter at de har forlatt boligen, for å forhindre brannfare. </p>
             <img src="${neatHeatEkstra1}" alt="NeatHeat prototype"/>
             <p><strong>Målgruppen:</strong><br>
             Målgruppen vi jobbet mot, er eldre hjemmeboende personer som ønsker å være selvstendige, men som trenger litt ekstra støtte i hverdagen for å føle seg trygge. For å sikre at løsningen ble tilpasset faktiske behov, samarbeidet vi tett med ekte brukere, blant annet besteforeldrene til et av gruppemedlemmene, gjennom hele designprosessen.</p>
@@ -65,13 +65,13 @@ export const Projects = () => {
             Jeg og gruppen startet med å samle innsikt gjennom dagbøker, intervjuer og workshops. Brukerne var med i alle faser, fra utforming til testing og evaluering av løsningen. Etter flere runder med prototyping og designendringer kom vi fram til et minimalistisk produkt som enkelt kunne henges på en vase, slik at det ikke virket påtrengende i hjemmet.</p>
             <img src="${neatHeatEkstra2}" alt="NeatHeat prototype"/>
             <p><strong>Teknisk løsning:</strong><br>
-            Løsningen vi utviklet består av to Arduino-enheter. En flammesensor plasseres nær stearinlyset for å oppdage om det er tent, mens en annen enhet ved døren har en bevegelsessensor og en buzzer. Når systemet registrerer at et lys er tent samtidig som noen forlater boligen, aktiveres alarmen for å varsle brukeren.</p>
+            Løsningen vi utviklet består av to Arduino-enheter. En flammesensor plasseres nær stearinlyset for å oppdage om det er tent, mens en annen enhet ved døren har en bevegelsessensor og en buzzer. Når systemet registrerer at et lys er tent samtidig som noen forlater boligen, aktiveres alarmen for å varsle brukeren. Systemene ble utviklet i C++</p>
             <img src="${neatHeatEkstra3}" alt="NeatHeat prototype" style="float: right; width: 70%; max-width: none; margin: 20px 0 20px 30px; border-radius: 12px;" />
             <p><strong>Resultater:</strong><br>
             Prototypen fungerte som forventet etter at vi forbedret koden. Det viste seg likevel at batterikoblingen og strømforsyningen kunne forbedres for mer stabil drift. Brukertestene ga oss verdifull innsikt som resulterte i flere forslag til videre forbedringer.</p>
 
             <p><strong>Hva jeg lærte:</strong><br>
-            Gjennom prosjektet erfarte jeg at brukermedvirkning er essensielt for å utvikle realistiske og gode løsninger. Det er også viktig å sette av nok tid til testing og feilretting underveis. Sammen med gruppen fikk jeg praktisk erfaring med samskaping, prototyping og evaluering, noe som styrket min kompetanse innen velferdsteknologi og design.</p>
+            Gjennom prosjektet erfarte jeg at brukermedvirkning er essensielt for å utvikle realistiske og gode løsninger. Det er også viktig å sette av nok tid til testing og feilretting underveis. Sammen med gruppen fikk jeg praktisk erfaring med samskaping, prototyping og evaluering, noe som styrket min kompetanse innen velferdsteknologi og design. I tilegg lærte jeg mer om programmering i C++ og hvordan man kan bruke Arduino-plattformer for å utvikle smarte løsninger.</p>
             `
 
     }, 
@@ -100,7 +100,7 @@ export const Projects = () => {
       imgUrl: froggerThumbNail,
       buttons: [{ tittel: "Prøv Spillet", knappDirection: "https://evepto.itch.io/the-frogglers-quest-for-sustinance" } ],
       detalier:  `<p><h3>Prosjektoversikt</h3>
-I løpet av en uke utviklet jeg et spill i Unity som en del av en spillutviklingskonkurranse. Målet var å lage et spill som føles nytt hver gang man spiller, ved hjelp av <em>prosedyregenerering</em>. En stor utfordring var å sørge for at alle nivåer alltid kunne fullføres, noe som krevde gjennomtenkt logikk, pathfinding og validering av nivåer.</p>
+I løpet av en uke utviklet jeg et spill i Unity, i språket C#, som en del av en spillutviklingskonkurranse. Målet var å lage et spill som føles nytt hver gang man spiller, ved hjelp av <em>prosedyregenerering</em>. En stor utfordring var å sørge for at alle nivåer alltid kunne fullføres, noe som krevde gjennomtenkt logikk, pathfinding og validering av nivåer.</p>
 
 <p><h3>Utviklingsmetodikk</h3>
 Arbeidet ble gjort i team med vekt på samarbeid og moderne utviklingspraksis. Vi jobbet parallelt i sanntid, benyttet versjonskontroll og kontinuerlig integrasjon, og la vekt på effektiv håndtering av kodeflyt og testing. Dette gjorde at vi kunne eksperimentere raskt uten å stoppe utviklingen.</p>
@@ -110,7 +110,7 @@ Arbeidet ble gjort i team med vekt på samarbeid og moderne utviklingspraksis. V
 </div>
 
 <p><h3>Kjernefunksjoner</h3>
-For å få til prosedyregenereringen utviklet jeg blant annet:
+For å få til prosedyregenereringen utviklet blant annet:
 <ul>
   <li>Algoritmer som genererte plattformer og hindringer tilfeldig.</li>
   <li>Et pathfinding-system som alltid sikret en løsning fra start til mål.</li>
@@ -121,7 +121,7 @@ Ytelsen ble optimalisert slik at genereringen kunne kjøre mange forsøk raskt o
 
 
 <p><h3>Resultat og erfaring</h3>
-Spillet fungerer som tiltenkt: hvert brett er unikt, men alltid spillbart. Algoritmene gir en rettferdig utfordring, og de visuelle tilbakemeldingene gjør spillopplevelsen tydelig og engasjerende. Gjennom prosjektet fikk jeg solid erfaring med <em>prosedyrebasert generering</em>, ytelsesoptimalisering og DevOps-prinsipper i teamarbeid – ferdigheter som er direkte overførbare til større utviklingsprosjekter.</p>
+Spillet fungerer som tiltenkt: hvert brett er unikt, men alltid spillbart. Algoritmene gir en rettferdig utfordring, og de visuelle tilbakemeldingene gjør spillopplevelsen tydelig og engasjerende. Gjennom prosjektet fikk jeg solid erfaring med <em>prosedyrebasert generering</em>, ytelsesoptimalisering, C# programmering og DevOps-prinsipper i teamarbeid – ferdigheter som er direkte overførbare til større utviklingsprosjekter.</p>
 
 <br>
 <br>
