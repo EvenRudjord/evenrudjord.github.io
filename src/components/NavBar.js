@@ -149,7 +149,7 @@ export const NavBar = () => {
                 />
               </a>
             </div>
-            <button className="vvd" onClick={() => window.open("/Prosjektfiler/Ordentlig CV.pdf", '_blank')}>
+            <button className="vvd" onClick={() => window.open("/Prosjektfiler/CV.pdf", '_blank')}>
               <span>Curriculum Vitae (CV)</span>
             </button>
           </span>

@@ -103,7 +103,7 @@ export const OmMeg = () => {
               <p><b>Galdhøpiggen:</b> Besteg Norges høyeste fjell, 2469 moh.</p>
               <p><b>Fallskjermhopp:</b> Hoppet fra 2000 meters høyde med fallskjerm.</p>
               <p><b>Maraton:</b> Gjennomført helmaraton i Sør-Afrika etter lang forberedelse.</p>
-              <p><b>110 kg benkpress:</b> Oppnådd personlig rekord i benkpress på 110 kg.</p>
+              <p><b>120 kg benkpress:</b> Oppnådd personlig rekord på 120kg benkpress.</p>
               <p><b>Strikkhopp:</b> Utført verdens høyeste strikkhopp fra 160 meter.</p>
               <p><b>7-fjellsturen:</b> Gikk 7-fjellsturen i Bergen – 35 km over syv fjell.</p>
             </div>

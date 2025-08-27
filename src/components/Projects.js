@@ -9,6 +9,10 @@ import neatHeatEkstra3 from "../assets/img/neatHeatEkstra3.png";
 import portofolgeNettside from "../assets/img/protofolieThumbnail.png";
 import starTrailEkstra1 from "../assets/img/starTrailExtra1.png";
 import starTrailEkstra2 from "../assets/img/starTrailExtra2.png";
+import froggerThumbNail from "../assets/img/FroggerThumbnail.png";
+import froggerEkstra1 from "../assets/img/FroggerExtra1.png";
+import froggerEkstra2 from "../assets/img/FroggerExtra2.png";
+import froggerEkstra3 from "../assets/img/FroggerExtra3.png";
 
 
 export const Projects = () => {
@@ -88,6 +92,40 @@ export const Projects = () => {
   <h3><strong>Erfaring og læring</strong></h3>\
   <p>Gjennom utviklingen har jeg styrket mine ferdigheter innen moderne webutvikling, spesielt med React og responsivt design. Arbeidet har også gitt meg praktisk erfaring med å lage intuitive og visuelle løsninger som forbedrer brukeropplevelsen.</p>\
 </section>"
+
+    },
+    {
+      title: "FROGGER.REWIND",
+      description: "Videospill utviklet i Unity i en spillutviklingskonkurranse. Med stort fokus på algoritmer",
+      imgUrl: froggerThumbNail,
+      buttons: [{ tittel: "Prøv Spillet", knappDirection: "https://evepto.itch.io/the-frogglers-quest-for-sustinance" } ],
+      detalier:  `<p><h3>Prosjektoversikt</h3>
+I løpet av en uke utviklet jeg et spill i Unity som en del av en spillutviklingskonkurranse. Målet var å lage et spill som føles nytt hver gang man spiller, ved hjelp av <em>prosedyregenerering</em>. En stor utfordring var å sørge for at alle nivåer alltid kunne fullføres, noe som krevde gjennomtenkt logikk, pathfinding og validering av nivåer.</p>
+
+<p><h3>Utviklingsmetodikk</h3>
+Arbeidet ble gjort i team med vekt på samarbeid og moderne utviklingspraksis. Vi jobbet parallelt i sanntid, benyttet versjonskontroll og kontinuerlig integrasjon, og la vekt på effektiv håndtering av kodeflyt og testing. Dette gjorde at vi kunne eksperimentere raskt uten å stoppe utviklingen.</p>
+<div style="display: flex; gap: 0px; justify-content: center; align-items: flex-start; margin: 0px 0;">
+  <img src="${froggerEkstra2}" alt="Bilde fra utviklingsprosessen" style="image-rendering: pixelated; width: 50%; max-width: 350px; height: auto;"/>
+  <img src="${froggerEkstra3}" style="image-rendering: pixelated; width: 80%; max-width: 500px; height: auto;" />
+</div>
+
+<p><h3>Kjernefunksjoner</h3>
+For å få til prosedyregenereringen utviklet jeg blant annet:
+<ul>
+  <li>Algoritmer som genererte plattformer og hindringer tilfeldig.</li>
+  <li>Et pathfinding-system som alltid sikret en løsning fra start til mål.</li>
+  <li>Dynamiske visuelle markeringer som viste hvilke elementer som var trygge eller farlige.</li>
+</ul>
+<img src="${froggerEkstra1}" alt="Bilde fra spillet"/>
+Ytelsen ble optimalisert slik at genereringen kunne kjøre mange forsøk raskt og stabilt uten at spillet krasjet.</p>
+
+
+<p><h3>Resultat og erfaring</h3>
+Spillet fungerer som tiltenkt: hvert brett er unikt, men alltid spillbart. Algoritmene gir en rettferdig utfordring, og de visuelle tilbakemeldingene gjør spillopplevelsen tydelig og engasjerende. Gjennom prosjektet fikk jeg solid erfaring med <em>prosedyrebasert generering</em>, ytelsesoptimalisering og DevOps-prinsipper i teamarbeid – ferdigheter som er direkte overførbare til større utviklingsprosjekter.</p>
+
+<br>
+<br>
+`
 
     }
   ];
