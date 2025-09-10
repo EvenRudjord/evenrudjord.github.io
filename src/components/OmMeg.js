@@ -33,7 +33,7 @@ export const OmMeg = () => {
 
   return (
     <section className='fullOmMeg' id="OmMeg">
-    <section className="skill">
+    <section className="skill" style={{ paddingTop: "0px" }}>
       {/* <Container>
         <Row>
           <Col>

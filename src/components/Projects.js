@@ -71,7 +71,7 @@ export const Projects = () => {
             Prototypen fungerte som forventet etter at vi forbedret koden. Det viste seg likevel at batterikoblingen og strømforsyningen kunne forbedres for mer stabil drift. Brukertestene ga oss verdifull innsikt som resulterte i flere forslag til videre forbedringer.</p>
 
             <p><strong>Hva jeg lærte:</strong><br>
-            Gjennom prosjektet erfarte jeg at brukermedvirkning er essensielt for å utvikle realistiske og gode løsninger. Det er også viktig å sette av nok tid til testing og feilretting underveis. Sammen med gruppen fikk jeg praktisk erfaring med samskaping, prototyping og evaluering, noe som styrket min kompetanse innen velferdsteknologi og design. I tilegg lærte jeg mer om programmering i C++ og hvordan man kan bruke Arduino-plattformer for å utvikle smarte løsninger.</p>
+            Gjennom prosjektet erfarte jeg at brukermedvirkning er essensielt for å utvikle realistiske og gode løsninger. Det er også viktig å sette av nok tid til testing og feilretting underveis. Sammen med gruppen fikk jeg praktisk erfaring med samskaping, prototyping og evaluering, noe som styrket min kompetanse innen velferdsteknologi og design. I tillegg lærte jeg å programmere i C++ og hvordan man kan bruke Arduino-plattformer for å utvikle smarte løsninger.</p>
             `
 
     }, 
