@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting…</title>
+  <script>
+    // Ta ut path etter domenet, f.eks. /neatheat → "neatheat"
+    const path = window.location.pathname.replace(/^\/+|\/+$/g, "");
+
+    if (path) {
+      // Automatisk redirect til root + hash
+      window.location.replace("/#" + path);
+    } else {
+      // Hvis ingen path → gå til forsiden
+      window.location.replace("/");
+    }
+  </script>
+</head>
+<body>
+</body>
+</html>
