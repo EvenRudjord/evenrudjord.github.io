@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.4c33b851.css",
-    "main.js": "/static/js/main.f5af8198.js",
+    "main.js": "/static/js/main.3ff21c04.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/megSelv.jpg": "/static/media/megSelv.f4ef93f1c24ec7fe9168.jpg",
-    "static/media/Akerblikkthumbnail.png": "/static/media/Akerblikkthumbnail.cb8cf409b4473d403fa5.png",
+    "static/media/Akerblikkthumbnail.png": "/static/media/Akerblikkthumbnail.9f25d5b144cfb974b9c6.png",
     "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/Akerblikkbilde2.png": "/static/media/Akerblikkbilde2.5bb60d7a69fe70355203.png",
     "static/media/neatHeatEkstra2.png": "/static/media/neatHeatEkstra2.81719289bf8329d58aa0.png",
     "static/media/Maraton.png": "/static/media/Maraton.0076fffc1a54e0764cdc.png",
     "static/media/Gallho.png": "/static/media/Gallho.fffb7ff592af9c83d67a.png",
@@ -22,6 +23,8 @@
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
     "static/media/FroggerThumbnail.png": "/static/media/FroggerThumbnail.43b7d2af1bf969fc954a.png",
+    "static/media/Akerblikkbilde3.png": "/static/media/Akerblikkbilde3.27fb54aea2bc23e83ad1.png",
+    "static/media/Akerblikkbilde1.png": "/static/media/Akerblikkbilde1.46df17449403b51b4332.png",
     "static/media/starTrailThumbNail.png": "/static/media/starTrailThumbNail.45f70809e395e453814b.png",
     "static/media/starTrailExtra1.png": "/static/media/starTrailExtra1.1357419c45b3f13aabd6.png",
     "static/media/FroggerExtra1.png": "/static/media/FroggerExtra1.3d78a4bbfc46e21455c0.png",
@@ -41,19 +44,19 @@
     "static/media/nav-icon4.svg": "/static/media/nav-icon4.97ed8e7eef60d61ca469881dd6f34511.svg",
     "index.html": "/index.html",
     "static/media/javascript.svg": "/static/media/javascript.081325c6f229605dce15142ddd948d6d.svg",
-    "static/media/Kotlin.svg": "/static/media/Kotlin.4ebef30c6d43b4f1016a6302aa2b2b00.svg",
     "static/media/gitIcon.svg": "/static/media/gitIcon.43d387b77657117c0e407816cbf72476.svg",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/vscodeIcon.svg": "/static/media/vscodeIcon.c95ccce217b9216b765737214d743d02.svg",
+    "static/media/Kotlin.svg": "/static/media/Kotlin.f700c7e12234a3d8bfb1b0d3a05359d2.svg",
     "static/media/figmaIcon.svg": "/static/media/figmaIcon.44ca2c329ade686d78f62ad73790c621.svg",
     "static/media/CSS.svg": "/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.4c33b851.css.map": "/static/css/main.4c33b851.css.map",
-    "main.f5af8198.js.map": "/static/js/main.f5af8198.js.map",
+    "main.3ff21c04.js.map": "/static/js/main.3ff21c04.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c33b851.css",
-    "static/js/main.f5af8198.js"
+    "static/js/main.3ff21c04.js"
   ]
 }
