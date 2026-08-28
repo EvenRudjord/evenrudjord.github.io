@@ -15,7 +15,9 @@ import froggerEkstra2 from "../assets/img/FroggerExtra2.png";
 import froggerEkstra3 from "../assets/img/FroggerExtra3.png";
 import sBOMThumbnail from "../assets/img/SBOMthumbnail.png";
 import åkerblikkThumbnail from "../assets/img/Akerblikkthumbnail.png"
-
+import åkerblikkbilde1 from "../assets/img/Akerblikkbilde2.png"
+import åkerblikkbilde2 from "../assets/img/Akerblikkbilde1.png"
+import åkerblikkbilde3 from "../assets/img/Akerblikkbilde3.png"
 
 export const Projects = () => {
 
@@ -161,12 +163,14 @@ Verktøyet fungerer effektivt på store kataloger med mange repositories, og gir
       title: "Åkerblikk",
       description: "Android-app som gir norske bønder oversikt over historisk ekstremvær og fremtidige klimatrender for egne åkre.",
       imgUrl: åkerblikkThumbnail,
-      buttons: [{ tittel: "Se på GitHub", knappDirection: "https://github.com/EvenRudjord/aakerblikk" } ],
+      buttons: [{ tittel: "Se på GitHub", knappDirection: "https://github.com/EvenRudjord/aakerblikk" } ,
+        { tittel: "Se Demo Video", knappDirection: "https://drive.google.com/file/d/1g0dzfD-Nf7QmjRQaa5LsOBCb7twT5ZFx/view?resourcekey" }
+      ],
       detalier: `<p><h3>Prosjektoversikt</h3>
-Åkerblikk er en <strong>Android-app</strong> utviklet i team på seks som del av emnet IN2000 ved UiO. Appen gir norske bønder og grunneiere oversikt over hvilke værforhold åkeren deres har vært utsatt for historisk, samt prediksjoner for fremtidige forhold. Prosjektet ble drevet av intervjuer og brukertester med faktiske bønder, og hele løsningen ble formet etter reelle behov fremfor egne antagelser.</p>
+Åkerblikk er en <strong>Android-app</strong> utviklet i team på seks som del av bacheloroppgaven ved UiO. Appen gir norske bønder og grunneiere oversikt over hvilke værforhold åkeren deres har vært utsatt for historisk, samt prediksjoner for fremtidige forhold. Prosjektet <img src="${åkerblikkbilde2}" alt="Åkerblikk prototype" style="float: right; width: 20%; max-width: none; margin: 20px 40px 20px 30px; border-radius: 12px;" /> ble drevet av intervjuer og brukertester med faktiske bønder, og hele løsningen ble formet etter reelle behov fremfor egne antagelser.</p>
 
 <p><h3>Utviklingsmetodikk</h3>
-Appen ble bygget i <strong>Kotlin</strong> med <strong>Jetpack Compose</strong> og <strong>MVVM-arkitektur</strong>, med <em>Coroutines</em> og <em>Retrofit</em> for asynkrone API-kall og <em>RoomDB</em> for lokal lagring. Teamet jobbet etter Scrumban med ukentlige sprinter, retrospektiver og rollerotasjon. Jeg var spesielt involvert i teknisk implementasjon som ViewModel-logikk, API-integrasjon og grafrendering, i tillegg til rapportskriving og tilgjengelighetsarbeid (WCAG).</p>
+Appen ble bygget i <strong>Kotlin</strong> med <strong>Jetpack Compose</strong> og <strong>MVVM-arkitektur</strong>, med <em>Coroutines</em> og <em>Retrofit</em> for asynkrone API-kall og <em>RoomDB</em> for lokal lagring. Teamet vårt jobbet etter Scrumban med ukentlige sprinter, retrospektiver og rollerotasjon. Jeg var jobbet som designer i prosjektet. I tilleg til teknisk implementasjon som ViewModel-logikk, API-integrasjon og grafrendering.</p>
 
 <p><h3>Kjernefunksjoner</h3>
 Appens hovedfunksjonalitet inkluderer:
@@ -177,9 +181,11 @@ Appens hovedfunksjonalitet inkluderer:
   <li>Lar brukeren markere og lagre flere åkere med justerbare polygoner direkte i kartet.</li>
   <li>Fungerer robust ved dårlig eller manglende nettverksforbindelse, med lokal caching og feilhåndtering.</li>
 </ul></p>
+<img src="${åkerblikkbilde1}" alt="Åkerblikk prototype" style="float: center; width: 90%; max-width: none; margin: 20px 30px 40px 40px; border-radius: 12px;" />
+
 
 <p><h3>Resultat og erfaring</h3>
-Appen ble validert gjennom fem brukerintervjuer og to strukturerte brukertester med bønder, samt faglig kvalitetssikring av Meteorologisk institutt. Gjennom prosjektet fikk jeg praktisk erfaring med Android-arkitektur i stor skala, håndtering av eksterne API-er under varierende nettverksforhold, og hvordan tekniske og designfaglige perspektiver kan kombineres i et tverrfaglig team.</p>
+Appen ble validert gjennom fem brukerintervjuer og to strukturerte brukertester med bønder, samt faglig kvalitetssikring av Meteorologisk institutt. Gjennom prosjektet fikk jeg praktisk erfaring med å designe med brukere. I tilleg til Android-arkitektur, håndtering av eksterne API-er, og hvordan tekniske og designfaglige perspektiver kan kombineres i et tverrfaglig team.</p>
 
 <br>
 <br>
