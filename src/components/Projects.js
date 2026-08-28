@@ -13,6 +13,8 @@ import froggerThumbNail from "../assets/img/FroggerThumbnail.png";
 import froggerEkstra1 from "../assets/img/FroggerExtra1.png";
 import froggerEkstra2 from "../assets/img/FroggerExtra2.png";
 import froggerEkstra3 from "../assets/img/FroggerExtra3.png";
+import sBOMThumbnail from "../assets/img/SBOMthumbnail.png";
+import åkerblikkThumbnail from "../assets/img/Akerblikkthumbnail.png"
 
 
 export const Projects = () => {
@@ -127,6 +129,61 @@ Spillet fungerer som tiltenkt: hvert brett er unikt, men alltid spillbart. Algor
 <br>
 `
 
+    }, {
+      title: "SBOM Generator",
+      description: "Verktøy for å generere Software Bill of Materials (SBOM) for programvareprosjekter.",
+      imgUrl: sBOMThumbnail,
+      buttons: [{ tittel: "Se på GitHub", knappDirection: "https://github.com/EvenRudjord/SBOM-generator/" } ],
+      detalier:  `<p><h3>Prosjektoversikt</h3>
+I dette prosjektet utviklet jeg et kommandolinjeverktøy i <strong>Python 3</strong> som genererer en <em>Software Bill of Materials (SBOM)</em> for ett eller flere repositories. Verktøyet gir en strukturert oversikt over alle avhengigheter, inkludert navn, versjon, type og plassering i prosjektet, uten bruk av eksterne biblioteker. Hensikten var å gjøre det enklere for utviklings- og sikkerhetsteam å identifisere og dokumentere avhengigheter på en effektiv måte.</p>
+
+<p><h3>Utviklingsmetodikk</h3>
+Arbeidet ble utført med fokus på ryddig Python-kode og bruk av standardbiblioteket. Prosessen inkluderte rekursiv skanning av kataloger, parsing av <em>requirements.txt</em>, <em>package.json</em> og <em>package-lock.json</em>, samt normalisering av versjonsnumre. Feilhåndtering og brukervennlige konsollmeldinger ble implementert for å sikre robusthet. Resultatet ble eksport til både CSV og JSON for enkel viderebruk og analyse.</p>
+
+<p><h3>Kjernefunksjoner</h3>
+Verktøyet har følgende hovedfunksjonalitet:
+<ul>
+  <li>Tar en katalog som input og søker rekursivt etter dependency-filer.</li>
+  <li>Identifiserer repositories basert på tilstedeværelse av relevante filer.</li>
+  <li>Ekstraherer både direkte og indirekte avhengigheter.</li>
+  <li>Normaliserer versjonsnumre og genererer <strong>sbom.csv</strong> og <strong>sbom.json</strong> med kolonnene: name, version, type, path.</li>
+  <li>Viser antall repositories og en oppsummering i konsollen.</li>
+</ul></p>
+
+<p><h3>Resultat og erfaring</h3>
+Verktøyet fungerer effektivt på store kataloger med mange repositories, og gir tydelig og strukturert output. Gjennom prosjektet fikk jeg bedre forståelse av pakkehierarki i Python og JavaScript, forskjellen mellom direkte og indirekte avhengigheter, kommandolinjeverktøy, dataformatering og feilbehandling. Dette styrket mine ferdigheter i ren Python-programmering og forståelse av sikkerhetsrelevante avhengighetsanalyser.</p>
+
+<br>
+<br>
+`
+    },
+    {
+      title: "Åkerblikk",
+      description: "Android-app som gir norske bønder oversikt over historisk ekstremvær og fremtidige klimatrender for egne åkre.",
+      imgUrl: åkerblikkThumbnail,
+      buttons: [{ tittel: "Se på GitHub", knappDirection: "https://github.com/EvenRudjord/aakerblikk" } ],
+      detalier: `<p><h3>Prosjektoversikt</h3>
+Åkerblikk er en <strong>Android-app</strong> utviklet i team på seks som del av emnet IN2000 ved UiO. Appen gir norske bønder og grunneiere oversikt over hvilke værforhold åkeren deres har vært utsatt for historisk, samt prediksjoner for fremtidige forhold. Prosjektet ble drevet av intervjuer og brukertester med faktiske bønder, og hele løsningen ble formet etter reelle behov fremfor egne antagelser.</p>
+
+<p><h3>Utviklingsmetodikk</h3>
+Appen ble bygget i <strong>Kotlin</strong> med <strong>Jetpack Compose</strong> og <strong>MVVM-arkitektur</strong>, med <em>Coroutines</em> og <em>Retrofit</em> for asynkrone API-kall og <em>RoomDB</em> for lokal lagring. Teamet jobbet etter Scrumban med ukentlige sprinter, retrospektiver og rollerotasjon. Jeg var spesielt involvert i teknisk implementasjon som ViewModel-logikk, API-integrasjon og grafrendering, i tillegg til rapportskriving og tilgjengelighetsarbeid (WCAG).</p>
+
+<p><h3>Kjernefunksjoner</h3>
+Appens hovedfunksjonalitet inkluderer:
+<ul>
+  <li>Henter historisk værdata (nedbør, temperatur, vind) fra Meteorologisk institutts Frost-API, tilbake til år 1900.</li>
+  <li>Genererer prediksjoner for fremtidige værforhold basert på regresjonsanalyse av historiske data.</li>
+  <li>Visualiserer flomsoner for ulike gjentaksintervaller på kart, med data fra NVE og Mapbox.</li>
+  <li>Lar brukeren markere og lagre flere åkere med justerbare polygoner direkte i kartet.</li>
+  <li>Fungerer robust ved dårlig eller manglende nettverksforbindelse, med lokal caching og feilhåndtering.</li>
+</ul></p>
+
+<p><h3>Resultat og erfaring</h3>
+Appen ble validert gjennom fem brukerintervjuer og to strukturerte brukertester med bønder, samt faglig kvalitetssikring av Meteorologisk institutt. Gjennom prosjektet fikk jeg praktisk erfaring med Android-arkitektur i stor skala, håndtering av eksterne API-er under varierende nettverksforhold, og hvordan tekniske og designfaglige perspektiver kan kombineres i et tverrfaglig team.</p>
+
+<br>
+<br>
+`
     }
   ];
 

@@ -40,6 +40,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
       <!-- Query-param redirect -->
-    
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const project = params.get("project");
+
+      if (project) {
+        window.location.replace("/#" + project);
+      }
+    </script> 
   </body>
 </html>
