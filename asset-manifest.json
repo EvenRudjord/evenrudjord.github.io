@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c33b851.css",
-    "main.js": "/static/js/main.3ff21c04.js",
+    "main.js": "/static/js/main.2916d81d.js",
     "static/js/453.96453769.chunk.js": "/static/js/453.96453769.chunk.js",
     "static/media/megSelv.jpg": "/static/media/megSelv.f4ef93f1c24ec7fe9168.jpg",
     "static/media/Akerblikkthumbnail.png": "/static/media/Akerblikkthumbnail.9f25d5b144cfb974b9c6.png",
@@ -10,6 +10,7 @@
     "static/media/neatHeatEkstra2.png": "/static/media/neatHeatEkstra2.81719289bf8329d58aa0.png",
     "static/media/Maraton.png": "/static/media/Maraton.0076fffc1a54e0764cdc.png",
     "static/media/Gallho.png": "/static/media/Gallho.fffb7ff592af9c83d67a.png",
+    "static/media/egennettside.png": "/static/media/egennettside.7afba2ec65ec6911672b.png",
     "static/media/neatHeatEkstra1.png": "/static/media/neatHeatEkstra1.9590ef5e27510e71c356.png",
     "static/media/Fall.png": "/static/media/Fall.d100c1beed88c928d631.png",
     "static/media/protofolieThumbnail.png": "/static/media/protofolieThumbnail.0e5b83723cd2007c159b.png",
@@ -52,11 +53,11 @@
     "static/media/CSS.svg": "/static/media/CSS.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
     "static/media/HTML.svg": "/static/media/HTML.c1bb84e022ca9d76984d4b943bd678fd.svg",
     "main.4c33b851.css.map": "/static/css/main.4c33b851.css.map",
-    "main.3ff21c04.js.map": "/static/js/main.3ff21c04.js.map",
+    "main.2916d81d.js.map": "/static/js/main.2916d81d.js.map",
     "453.96453769.chunk.js.map": "/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c33b851.css",
-    "static/js/main.3ff21c04.js"
+    "static/js/main.2916d81d.js"
   ]
 }
